@@ -3,7 +3,7 @@
     {
       "text": "test01",
       "day": "time01",
-      "reminder": true,
+      "reminder": false,
       "id": 1
     },
     {
@@ -15,7 +15,7 @@
     {
       "text": "test04",
       "day": "time04",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     },
     {
