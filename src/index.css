@@ -10,14 +10,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 .container {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid #222831;
   padding: 30px;
   border-radius: 5px;
+  background-color: rgb(106, 105, 101);
 }
 
 .header {
@@ -25,14 +27,18 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  color: #d65a31;
+  background-color: #222831;
+  padding: 10px;
+  border-radius: 5px;
+  
 }
 
 .btn {
   display: inline-block;
   background: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  padding: 5px 20px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -45,8 +51,13 @@ body {
   outline: none;
 }
 
+.btn:hover {
+  border-color: #d65a31;
+  transform: scale(1.1);
+}
+
 .btn:active {
-  transform: scale(0.98);
+  transform: translateY(4px);
 }
 
 .btn-block {
@@ -109,4 +120,36 @@ body {
 footer {
   margin-top: 30px;
   text-align: center;
+  color: #d65a31;
+  background-color: #222831;
+  border-radius: 5px;
+}
+
+a:link, a:visited {
+  background-color: #d65a31;
+  color: rgb(203, 208, 209);
+  padding: 5px 10px;
+  margin: 1em;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+a:active {
+  background-color: #d65a31;
+}
+
+.copyright {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  padding-right: 1em;
+  font-size: 10px;
+  text-align: right;
+  bottom:0%;
 }
